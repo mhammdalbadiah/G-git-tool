@@ -23,11 +23,12 @@ git clone https://github.com/mhammdalbadiah/G.git
 cd G
 go build -o G
 sudo mv G /usr/local/bin/
+```
 
-
-
+```sh
 G help
 G status
 G pull
 G push "Commit message"
 G clone <repo_url>
+```
